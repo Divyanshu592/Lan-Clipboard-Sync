@@ -3,7 +3,7 @@ import pyperclip
 from text_handler import receive_text
 from image_handler import receive_image
 
-SERVER_IP = "192.168.1.100"   # CHANGE THIS 
+SERVER_IP = "192.168.x.xxx"   # CHANGE THIS 
 PORT = 5000
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
